@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block heading %}
+	Answer
+{% endblock %}
+
+{% block body%}
+	<h1>Here you go!</h1>
+	The number is {{name}}
+	<h2></h2>
+	<a href="{{url_for('index')}}">Want some more, click here :)</a>
+{% endblock %}
