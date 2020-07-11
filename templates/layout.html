@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Website!</title>
+	</head>
+	<style>
+		body{
+			background-color: rgb(200,200,200,0.85);
+			text-align: center;
+			font-family: verdana;
+
+		}
+	</style>
+	<body>
+		<h1>{% block heading %}{% endblock %}</h1>
+		{% block body %}
+		{% endblock %}
+	</body>
+</html>
